@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+<div align="center" >
+  <img align="center" src="./public/home.png" alt="home" width="100%">
+</div>
+<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center" >
+  <img align="center" src="./public/cadastro.png" alt="cadastro" width="100%">
+</div>
+<br>
+<br>
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- HTML
+- CSS
+- Typescript
+- React
+- Vite
+- Styled Components
+- Immer
+- Zod
+- Tailwindcss
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📜 Projeto
 
-- Configure the top-level `parserOptions` property like this:
+Uma aplicação React utilizando o Vite, que foi desenvolvida para estudar sobre os fundamentos do ReactJS, utilizando conceitos como ContextAPI, useReducer, immer, Local Storage e roteamento.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### 📚 Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### ⚙️ Rodando o Web
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Brenerr/cadastro-usuarios
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd cadastro-usuarios
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
